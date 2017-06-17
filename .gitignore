@@ -2,5 +2,13 @@
 # Virtual environment
 Env/
 
+# Python files
+*.egg-info
+*.pot
+*.py[co]
+.tox/
+__pycache__
+MANIFEST
+
 .idea/
 data/
