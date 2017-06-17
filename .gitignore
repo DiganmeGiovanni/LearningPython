@@ -1,3 +1,6 @@
 
+# Virtual environment
+Env/
+
 .idea/
-data/
+src/data/
