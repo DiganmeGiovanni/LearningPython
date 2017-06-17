@@ -1,8 +1,10 @@
+""" Models entities """
 import random
 from entities.exceptions import DrinkException
 
 
-class Person:
+class Person(object):
+    """ Person entity """
 
     def __init__(self, name, age):
         self.name = name
@@ -39,6 +41,7 @@ class Person:
 
 
 class SoftwareEngineer(Person):
+    """ Software engineer person """
 
     def __init__(self, name, age, main_language):
         super().__init__(name, age)
