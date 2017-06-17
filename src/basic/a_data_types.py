@@ -1,4 +1,4 @@
-
+""" Basic python data types """
 #
 # - Python has 5 standard data types:
 #    * Numbers
@@ -22,10 +22,10 @@ name = 'Giovanni Aguirre'   # name is a string
 a = b = 50
 
 
-print('Python has 5 standard data types')
-print('\t1. Numbers')
-print('\t2. String')
-print('\t3. Tuple')
-print('\t4. List')
-print('\t5. Dictionary')
-print('\n\t*. Boolean')
+print 'Python has 5 standard data types'
+print '\t1. Numbers'
+print '\t2. String'
+print '\t3. Tuple'
+print '\t4. List'
+print '\t5. Dictionary'
+print '\n\t*. Boolean'

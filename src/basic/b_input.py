@@ -1,4 +1,4 @@
-
+""" Use input demo """
 #
 # input()  function is used to receive input from the console,
 # accepts an optional string argument called prompt  and returns a string.

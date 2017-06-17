@@ -2,7 +2,7 @@
 #
 # Strings in python uses "" or '' notation
 first_name = 'Giovanni'
-last_name  = 'Aguirre'
+last_name = 'Aguirre'
 print(first_name, last_name)
 
 #
@@ -55,4 +55,3 @@ print('"Agui" not in "Giovanni"', 'Agui' not in 'Giovanni')
 # Python compares string lexicographically i.e using ASCII value
 # of the characters.
 print('\n"Gio" > "Agui" ?', 'Gio' > 'Agui')
-

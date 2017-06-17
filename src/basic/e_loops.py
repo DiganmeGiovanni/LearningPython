@@ -1,46 +1,45 @@
-
+""" Loops samples """
 #
 # Python has only 'for' and 'while' loops
 
 #
 # For loop
-len = int(input('Enter list len: '))
-list = []
-for i in range(0, len):
+_len = int(input('Enter list len: '))
+_list = []
+for i in range(0, _len):
     prompt = 'Enter integer for pos ' + str(i) + ': '
     x = int(input(prompt))
-    list.append(x)
+    _list.append(x)
 
 print('\nFinal list is:', list)
-print('Iterated list is:')
-for i in list:
-    print(i)
-print('\n')
+print 'Iterated list is:'
+for i in _list:
+    print i
+print '\n'
 
 
 #
 # While loop
-print('\nResuming count')
+print '\nResuming count'
 count = 0
 while count < 5:
     count += 1
-    print(count)
+    print count
 
 # break
-print('\nResuming count')
+print '\nResuming count'
 while count < 10:
     count += 1
-    print(count)
+    print count
     if count == 7:
-        print('\tDoing break')
+        print '\tDoing break'
         break
 
 # Continue
-print('\nResuming count')
+print '\nResuming count'
 while count < 15:
     count += 1
     if count == 10:
-        print('\tDoing continue')
+        print '\tDoing continue'
     else:
-        print(count)
-
+        print count
