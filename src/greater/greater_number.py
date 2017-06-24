@@ -32,7 +32,7 @@ def main():
         print ''
         main()
     else:
-        print '\nGood by :)'
+        print '\nGood bye :)'
         sys.exit(0)
 
 main()
