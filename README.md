@@ -4,4 +4,4 @@ the language by implementing solutions
 to classic problems
 
 ### Exercises:
-1. [Pythagoras theorem]('src/pythagoras')
+1. [Pythagoras theorem](src/pythagoras)
