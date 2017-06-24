@@ -5,3 +5,4 @@ to classic problems
 
 ### Exercises:
 1. [Pythagoras theorem](src/pythagoras)
+2. [Greater of three numbers](src/greater)
